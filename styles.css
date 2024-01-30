@@ -1,0 +1,346 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav 
+{
+  background-color: #333;
+  overflow: hidden;
+}
+nav ul 
+{
+list-style-type: none;
+padding: 0;
+}
+nav ul li 
+{
+  float: left;
+}
+nav ul li a 
+{
+  display: block;
+  color: hsl(0, 28%, 92%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover 
+{
+  background-color: #111;
+}
+.butchery 
+{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.butchery img 
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.butchery-text 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+.meat-item 
+{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-basis: 23%;
+  margin-right: 2%;
+  margin-bottom: 2rem;
+}
+.meat-item .text
+{
+  margin-right: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.meat-item:nth-child(4n) 
+{
+  margin-right: 0;
+}
+.meat-item img 
+{
+  width: 50%;
+  height: auto;
+  padding: 10px 20px;
+}
+.meat-info 
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 1rem;
+  margin: 0;
+}
+.meat-info h2 
+{
+  margin-top: 0;
+}
+.button 
+{
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.button 
+{
+  transition: background-color 0.3s ease;
+}
+.button:hover 
+{
+  background-color: #444;
+}
+#register 
+{
+  background-color: #f2f2f2;
+  padding: 4rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 2rem auto;
+  max-width: 500px;
+}
+#register h2 
+{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#register label 
+{
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#register input[type="text"], #register input[type="email"],#register input[type="password"] 
+{
+  width: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+#register button[type="submit"] 
+{
+  background-color: #f3f7f3;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#register button[type="submit"]:hover 
+{
+  background-color: #3e8e41;
+}
+#login 
+{
+  background-color: hsl(0, 15%, 92%);
+  padding: 4rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+#login h2 x
+{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#login label 
+{
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#login input[type="email"], #login input[type="password"] 
+{
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+#login button[type="submit"] 
+{
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="submit"] 
+{
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #4CAF50;
+  color: hsl(197, 87%, 49%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover 
+{
+  background-color: #45a049;
+}
+input[type="submit"]:enabled 
+{
+  background-color: green;
+  cursor: not-allowed;
+}
+form 
+{
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  background-color: hsl(0, 15%, 92%);
+  padding: 4rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 2rem auto;
+  max-width: 500px;
+}
+label 
+{
+  display: block;
+  margin-top: 20px;
+}
+input, select 
+{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+input[type="submit"] 
+{
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+}
+input[type="Login"] 
+{
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+}
+body 
+{
+  background-color: #dde6e9;
+}
+.about-us-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.about-us-message {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about-us-message h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.about-us-message p {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.order-us-message {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.order-us-message h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.order-us-message p {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.contact-us-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.contact-us-message {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-us-message h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.contact-us-message p {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.opening-&-closing-hours {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.opening-&-closing-hours ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.opening-&-closing-hours li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.opening-&-closing-hours p {
+  display: inline-block;
+  vertical-align: middle;
+}

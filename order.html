@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="styles.css">
+<form action="/submit_order" method="post">
+    <label for="meatType">Meat Type:</label><br>
+    <select id="meatType" name="meatType">
+      <option value="beef">Beef</option>
+      <option value="pork">Pork</option>
+      <option value="mutton">Mutton</option>
+      <option value="chicken">Chicken</option>
+    </select><br>
+    <label for="quantity">Quantity per kg:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" value="1"><br>
+    <label for="paymentMethod">Payment Method:</label><br>
+    <select id="paymentMethod" name="paymentMethod">
+      <option value="visa">Visa Card</option>
+      <option value="mpesa">Mpesa</option>
+      <option value="airtelmoney">Airtelmoney</option>
+    </select><br>
+    <label for="phoneNumber">Phone Number:</label><br>
+    <input type="tel" id="phoneNumber" name="phoneNumber" required><br>
+    <label for="cardNumber">Card Number:</label><br>
+    <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}" required><br>
+    <input type="submit" value="Place Order">
+  </form>
